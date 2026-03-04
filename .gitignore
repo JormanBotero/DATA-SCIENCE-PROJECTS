@@ -1,0 +1,44 @@
+# ============================================================================
+# .gitignore - Archivos a ignorar en Git
+# ============================================================================
+
+#  CREDENCIALES Y DATOS SENSIBLES
+.env                    # Variables de entorno (DATABASE_URL, etc.)
+.env.local              # Variaciones locales
+.env.*.local            # Otros archivos de entorno
+
+#  NOTEBOOKS Y CACHES
+.ipynb_checkpoints/     # Cache de Jupyter
+*.ipynb_checkpoints/
+__pycache__/            # Cache de Python
+*.py[cod]               # Python compilado
+*.so
+
+#  PYTHON
+venv/                   # Virtual environment
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+#  ARCHIVOS DE SISTEMA
+.DS_Store               # macOS
+Thumbs.db               # Windows
+.vscode/                # VS Code settings
+.idea/                  # PyCharm settings
+
+#  DATOS LOCALES
+*.csv                   # CSVs (opcional: comentar si quieres versionarlos)
+*.xlsx
+*.db
+*.sqlite
+*.sqlite3
+
+#  LOGS Y TEMPORALES
+*.log
+*.tmp
+*.temp
+~$*
+
+# ============================================================================
