@@ -9,7 +9,7 @@
 | Jorman Alexis Botero Gaviria | 2359573 |
 | Sofía Carolina Quenoran Ipujan | 2376849 |
 | Juan Sebastián Aragón | 2359449 |
-| Santiago Useche Tascon | - |
+| Santiago Useche Tascon | 2266200 |
 
 ---
 
